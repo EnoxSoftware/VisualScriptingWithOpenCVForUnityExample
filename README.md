@@ -5,7 +5,7 @@
 
 ## Environment
 * Unity 2021.1.0f1
-* [OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR) 2.4.4
+* [OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR) 2.5.0
 * Visual Scripting 1.5.1
 
 
