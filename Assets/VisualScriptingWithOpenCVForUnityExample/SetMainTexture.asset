@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SetMainTexture
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"enter","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"exit","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.Texture","key":"texture","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"SetMainTexture","summary":null,"pan":{"x":0.0,"y":90.0},"zoom":0.5999999,"elements":[{"defaultValues":{},"position":{"x":-252.0,"y":-48.0},"guid":"b6ef3373-d74d-446e-9f16-d50279cd2789","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":336.0,"y":-48.0},"guid":"458c6544-03e2-4817-b9b5-756fd31c11bc","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"14"},{"member":{"name":"material","parameterTypes":null,"targetType":"UnityEngine.Renderer","targetTypeName":"UnityEngine.Renderer","$version":"A"},"defaultValues":{"target":null},"position":{"x":-108.0,"y":132.0},"guid":"4b8f3fd8-ddc8-459a-9860-280b20869842","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"16"},{"chainable":false,"member":{"name":"mainTexture","parameterTypes":null,"targetType":"UnityEngine.Material","targetTypeName":"UnityEngine.Material","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"},"input":null},"position":{"x":72.0,"y":-48.0},"guid":"a2565b16-1bc1-4805-89f0-abab50695779","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"19"},{"sourceUnit":{"$ref":"12"},"sourceKey":"enter","destinationUnit":{"$ref":"19"},"destinationKey":"assign","guid":"e306a011-dc40-429e-a537-1ab468d1a997","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"assigned","destinationUnit":{"$ref":"14"},"destinationKey":"exit","guid":"0acbdba6-a1ef-4a6a-990a-b4c8041b4ecd","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"target","guid":"b0c9bc6e-2de1-441e-85a8-ced47bf30431","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"texture","destinationUnit":{"$ref":"19"},"destinationKey":"input","guid":"72fbecbb-66cc-4277-b77f-1f3077558e1d","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2100000, guid: d5c2a09c8f8d079458801d608271b579, type: 2}

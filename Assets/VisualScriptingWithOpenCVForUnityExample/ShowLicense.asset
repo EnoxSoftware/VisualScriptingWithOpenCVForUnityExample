@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: ShowLicense
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"ShowLicense","summary":null,"pan":{"x":0.0,"y":254.5859},"zoom":0.46,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-156.0},"guid":"c1669ed9-4d03-4967-826e-17f3616941a2","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":48.0},"guid":"a6e76dca-c795-413c-84fb-e4471d4bd886","$version":"A","$type":"Unity.VisualScripting.Update"},{"coroutine":false,"defaultValues":{"name":{"$content":"OnBackButtonClick","$type":"System.String"}},"position":{"x":-204.0,"y":228.0},"guid":"adf19429-9c99-4f74-b490-fdac00bfa29f","$version":"A","$type":"Unity.VisualScripting.BoltUnityEvent","$id":"13"},{"chainable":false,"parameterNames":["sceneName"],"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"VisualScriptingWithOpenCVForUnityExample","$type":"System.String"}},"position":{"x":48.0,"y":228.0},"guid":"20dfb401-3764-4ced-a40f-bd7b36ff5b39","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"d0c3fb1f-dec3-4764-a0bf-a243362f17a1","$type":"Unity.VisualScripting.ControlConnection"},{"position":{"xMin":-235.0,"yMin":156.6667,"xMax":434.0,"yMax":364.6667},"label":"OnGUI","comment":null,"color":{"r":0.2865788,"g":0.3429275,"b":0.5660378,"a":1.0},"guid":"c9c7c0a7-e744-4eaa-b435-25c93217f1d0","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
