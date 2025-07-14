@@ -4,9 +4,9 @@
 ![VisualScriptingWithOpenCVForUnity](https://user-images.githubusercontent.com/7920392/123110759-578d3200-d477-11eb-9068-7f74abf768f4.gif)
 
 ## Environment
-* Unity 2021.3.28f1
-* [OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR) 2.5.5+
-* Visual Scripting 1.8.0
+* Unity 2021.3.35f1
+* [OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR) 3.0.0+
+* Visual Scripting 1.9.8
 
 
 ## Setup
