@@ -8,9 +8,9 @@
 
 ## Environment
 
-- **Unity 2021.3.45f2+**
-- [OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR) **3.0.2+**
-- **Visual Scripting 1.9.10**
+- **Unity 2022.3.62f3+**
+- [OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR) **3.0.4+**
+- **Visual Scripting 1.9.11**
 
 ## Setup
 
